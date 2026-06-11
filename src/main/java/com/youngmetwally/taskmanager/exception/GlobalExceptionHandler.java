@@ -30,13 +30,4 @@ public class GlobalExceptionHandler {
         ErrorResponse error = new ErrorResponse("VALIDATION_ERROR", message);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
     }
-
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorResponse> handleGeneral(Exception ex) {
-        ErrorResponse error = new ErrorResponse(
-                "INTERNAL_ERROR",
-                "An unexpected error occurred"
-        );
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(error);
-    }
 }
