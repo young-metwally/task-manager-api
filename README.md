@@ -4,9 +4,11 @@ A Spring Boot REST API for task management built following full SDLC best practi
 
 ## Quality
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=young-metwally_task-manager-api&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=young-metwally_task-manager-api)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=young-metwally_task-manager-api&metric=coverage)](https://sonarcloud.io/summary/new_code?id=young-metwally_task-manager-api)
+## Quality
+
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=young-metwally_task-manager-api&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=young-metwally_task-manager-api)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=young-metwally_task-manager-api&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=young-metwally_task-manager-api)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=young-metwally_task-manager-api&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=young-metwally_task-manager-api)
 
 ## Tech Stack
 - Java 17 + Spring Boot 3.5
