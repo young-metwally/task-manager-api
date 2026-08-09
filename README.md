@@ -1,6 +1,6 @@
 # Task Manager API
 
-A Spring Boot REST API for task management built following full SDLC best practices.
+A Spring Boot REST API for task management developed through the complete software development life cycle (SDLC).
 
 ## Quality
 
